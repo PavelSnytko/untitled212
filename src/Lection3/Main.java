@@ -1,4 +1,4 @@
-package com.company;
+package Lection3;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -559,3 +559,4 @@ class task4_10{
 
     }
 }
+

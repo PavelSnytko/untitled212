@@ -2,10 +2,17 @@ package lection5;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
+/*
 
+Определить класс, который при инициализации принимает на
+вход 2 аргумента целого или вещественного типа. Задать
+перегруженные методы возвращающие результат арифметических
+операций над заданными полями и полями типа
+BigDecimal
+ */
 public class metods {
     private static int num1=1;
-    private static int num2=6;
+    private static int num2=8;
     private static String name = "Класс имеет два аргумента: ";
 
     public metods(int num1, int num2, String name) {

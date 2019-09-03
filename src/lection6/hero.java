@@ -156,9 +156,9 @@ class Mage extends Hero{
             System.out.println("Вы промахнулись!");
         }
         else{
-            System.out.println("Маг " + getName() + " aтакует врага ледяным шаром нанося " + damage + " ед. урона");
+            System.out.println("Маг " + getName() + " aтакует врага молнией " + damage + " ед. урона");
             if (frost > 75) {
-                System.out.println("Попытка заморозить врага удалась!");
+                System.out.println("Попытка поразить врага удалась!");
                 enemy.frozen = true;
             }
             enemy.takeDamage(damage);
@@ -310,7 +310,7 @@ class Dragon extends Enemy{
                 return 500;
             }
             else {
-                System.out.println("Дракон в ответ наносит " + counterblow + " ед. урона, степень отравления пламенем: " + poisoncounter);
+                System.out.println("Дракон в ответ наносит " + counterblow + " ед. урона, степень поражения пламенем: " + poisoncounter);
                 return counterblow;
             }
         }
